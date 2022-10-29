@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       dropShadow:{
         'white': '0 7px 29px 0 rgba(100, 100, 111, 0.2)',
-      }
+      },
+ 
     },
   },
   plugins: [],
