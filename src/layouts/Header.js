@@ -42,7 +42,7 @@ function Header() {
                         <Link to="/portfolio" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0'>portfolio.</Link>
                     </li>
                     <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                        <Link to="/contact" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0'>contact.</Link>
+                        <Link to="/contact" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0 active:text-white-700'>contact.</Link>
                     </li>
                 </ul>
             </div>
