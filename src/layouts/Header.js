@@ -30,38 +30,39 @@ function Header() {
            {enable ? <div className={toggleMenu ? "w-full block absolute md:relative z-10 bg-white left-0 mt-3 md:mt-0" : "hidden"}>
                 <ul className="ml-5 md:ml-0 md:flex md:justify-center md:mt-5">
                     <li className="text-lg font-semibold block p-2">
-                        <Link to="/" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0'>home.</Link>
+                        <Link to="/" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 hover:md:ml-0'>home.</Link>
                     </li>
                     <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                        <Link to="/about" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0'>about me.</Link>
+                        <Link to="/about" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3  hover:md:ml-0'>about me.</Link>
                     </li>
                     <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                        <Link to="/blog" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0'>blog.</Link>
+                        <Link to="/blog" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3  hover:md:ml-0'>blog.</Link>
                     </li>
                     <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                        <Link to="/portfolio" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0'>portfolio.</Link>
+                        <Link to="/portfolio" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 hover:md:ml-0'>portfolio.</Link>
                     </li>
                     <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                        <Link to="/contact" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 focus:ml-3 hover:md:ml-0 active:text-white-700'>contact.</Link>
+                        <Link to="/contact" className='text-slate-700 hover:text-slate-700/50 focus:text-slate-700/50 hover:ml-3 
+                        hover:md:ml-0 active:text-white-700'>contact.</Link>
                     </li>
                 </ul>
             </div>
         : <div className="w-full block absolute md:relative z-10 bg-[#121212] left-0 mt-3 md:mt-0">
         <ul className="ml-5 md:ml-0 md:flex md:justify-center md:mt-5">
             <li className="text-lg font-semibold block p-2">
-                <Link to="/" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 hover:md:ml-0'>home.</Link>
+                <Link to="/" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 focus:md:ml-0 hover:md:ml-0'>home.</Link>
             </li>
             <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                <Link to="/about" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 hover:md:ml-0'>about me.</Link>
+                <Link to="/about" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3  focus:md:ml-0 hover:md:ml-0'>about me.</Link>
             </li>
             <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                <Link to="/blog" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 hover:md:ml-0'>blog.</Link>
+                <Link to="/blog" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3  focus:md:ml-0 hover:md:ml-0'>blog.</Link>
             </li>
             <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                <Link to="/portfolio" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 hover:md:ml-0'>portfolio.</Link>
+                <Link to="/portfolio" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 focus:md:ml-0 hover:md:ml-0'>portfolio.</Link>
             </li>
             <li className="text-lg font-semibold block p-2 text-slate-300/70">
-                <Link to="/contact" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 hover:md:ml-0'>contact.</Link>
+                <Link to="/contact" className='text-slate-200/50 hover:text-white focus:text-white hover:ml-3 focus:ml-3 focus:md:ml-0 hover:md:ml-0'>contact.</Link>
             </li>
         </ul>
     </div>}

@@ -14,11 +14,16 @@ function Index() {
 
   }
   return (
-    <div className='w-3/4 mx-auto mt-5 bg-white rounded-lg min-h-full' >
+    <div className='w-3/4 mx-auto mt-5 bg-white rounded-lg min-h-full relative' >
+              <div className='flex flex-row absolute top-0 left-0 w-full bg-slate-700/50 rounded-lg h-5 pt-0.5'>
+                <div className='w-4 h-4 rounded-full bg-red-800/75 relative left-5'></div>
+                <div className='w-4 h-4 rounded-full bg-yellow-200/75 relative left-5 ml-2'></div>
+                <div className='w-4 h-4 rounded-full bg-white/50 relative left-5 ml-2'></div>              
+              </div> 
         <div className='w-3/4 mx-auto mb-6 pt-8'>
            <input type="search" className='w-full outline-none p-3 bg-transparent border mt-5 text-white shadow-md shadow-black/5 rounded-lg placeholder:text-slate-400/50 text-slate-700/50 text-sm' placeholder='Search a blog...' onChange={handleSearch}></input>
         </div> 
-        <div className='flex flex-col absolute right-[100px] items-center w-1/3'>
+        <div className='flex flex-col absolute right-[20px] items-center w-1/3'>
             <h3 className='text-slate-700 text-2xl mt-14 font-semibold'>Categories</h3>
             <ul className='flex flex-col items-center w-[250px] mt-4'>
                 <li className='text-lg font-bold px-2 py-1 mb-3 w-full rounded bg-green-200 text-green-800 cursor-pointer hover:scale-105 border'>HTML5</li>
