@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../layouts/Header'
+import Index from '.'
+
 
 function Portfolio() {
+
+
   return (
     <>
         <Header/>
-        <div>Portfolio</div>
+        <Index/>
     </>
   )
 }

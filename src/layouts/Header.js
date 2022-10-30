@@ -14,7 +14,6 @@ function Header() {
 
     window.addEventListener("resize",() => window.innerWidth >= 768 ? setEnable(false) : setEnable(true))
     useEffect(() => {
-        console.log(window.innerWidth)
         if(window.innerWidth <= 768){
             setEnable(true)
         }

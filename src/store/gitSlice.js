@@ -1,7 +1,7 @@
 import {createSlice,createAsyncThunk,EntityAdapter} from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const fetchGit = createAsyncThunk('git/fetchGit', async () => {
+export const fetchGit = createAsyncThunk('git/fetchGit', async () => {
     const response = await axios.get('https://api.github.com/users/erayates');
     return response.data;
 });
@@ -24,11 +24,12 @@ export const gitSlice = createSlice({
         },
         [fetchGit.rejected]: (state, action) => {
             state.status = 'failed';
-            console.log(action.error.message);
-            state.error = action.error.message;
+            state.error = action.error
+     
         }
     }
 })
 
 export default gitSlice.reducer;
 export const selectAllGit = state => state.git.items;
+export const showStatus = state => state.git.status
