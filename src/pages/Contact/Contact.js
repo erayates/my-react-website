@@ -1,11 +1,12 @@
 import React from 'react'
+import Index from '.'
 import Header from '../../layouts/Header'
 
 function Contact() {
   return (
     <>
         <Header/>
-        <div>Contact</div>
+        <Index/>
     </>
   )
 }
