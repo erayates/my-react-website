@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 function Index() {
   return (
     <Swiper direction={"vertical"} pagination={{clickable: true}} autoplay={{delay:3000,disableOnInteraction:true}} modules={[Pagination,Autoplay]} className=" mySwiper container mx-auto bg-white h-screen md:h-4/6 rounded-lg text-slate-700 mb-5 w-96 sm:w-3/4 md:mt-0">
-        <div className='flex flex-row absolute top-0 left-0 w-full bg-slate-700/50 rounded-lg h-5 pt-0.5'>
+        <div className='flex flex-row absolute top-0 left-0 w-full bg-slate-700/50 rounded-lg h-5 pt-0.5 z-20'>
           <div className='w-4 h-4 rounded-full bg-red-800/75 relative left-5'></div>
           <div className='w-4 h-4 rounded-full bg-yellow-200/75 relative left-5 ml-2'></div>
           <div className='w-4 h-4 rounded-full bg-white/50 relative left-5 ml-2'></div>              
